@@ -1,4 +1,4 @@
-🌱 Sistema de Diagnóstico de Enfermedades en Hojas de Caña de Azúcar
+🌱 **Sistema de Diagnóstico de Enfermedades en Hojas de Caña de Azúcar**
 
 🧩 1. Introducción
 
