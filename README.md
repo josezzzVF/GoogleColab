@@ -1,9 +1,11 @@
-## Sistema de Diagnóstico de Enfermedades en Hojas de Caña de Azúcar
-1. Introducción
+🌱 Sistema de Diagnóstico de Enfermedades en Hojas de Caña de Azúcar
+🧩 1. Introducción
 
-Este sistema permite identificar de manera automática enfermedades en hojas de caña de azúcar a partir de imágenes en color (RGB), utilizando modelos de Redes Neuronales Convolucionales (CNN) entrenados con técnicas de Deep Learning. La aplicación está diseñada para apoyar a estudiantes, investigadores y técnicos agrícolas en la detección temprana de enfermedades.
+Este proyecto corresponde a un Sistema de Diagnóstico Automático de Enfermedades en Hojas de Caña de Azúcar, desarrollado mediante técnicas de Deep Learning y análisis de imágenes RGB. El sistema emplea Redes Neuronales Convolucionales (CNN) entrenadas previamente para reconocer patrones visuales característicos de distintas enfermedades presentes en las hojas.
 
-2. Objetivo del sistema
+La aplicación ha sido diseñada como una herramienta de apoyo académico, investigativo y agrícola, permitiendo obtener diagnósticos rápidos, claros y fáciles de interpretar. Su objetivo principal es contribuir a la detección temprana de enfermedades, optimizando el tiempo de evaluación y apoyando la toma de decisiones en el manejo del cultivo.
+
+🎯 2. Objetivo del sistema
 
 Diagnosticar enfermedades en hojas de caña de azúcar a partir de imágenes.
 
@@ -11,14 +13,14 @@ Facilitar la evaluación automática mediante modelos entrenados.
 
 Mostrar resultados claros y comprensibles para el usuario.
 
-3. Requisitos del sistema
-3.1 Hardware
+🧰 3. Requisitos del sistema
+💻 3.1 Hardware
 
 Computadora con al menos 8 GB de RAM (recomendado 16 GB).
 
 Conexión a internet (para uso en Google Colab o Streamlit).
 
-3.2 Software
+🧪 3.2 Software
 
 Python 3.9 o superior.
 
@@ -26,7 +28,7 @@ Google Colab (recomendado) o entorno local.
 
 Navegador web actualizado (Chrome, Edge o Firefox).
 
-3.3 Librerías principales
+📦 3.3 Librerías principales
 
 TensorFlow / Keras
 
@@ -40,7 +42,7 @@ Scikit-learn
 
 Streamlit (para la aplicación interactiva)
 
-4. Estructura del proyecto
+📂 4. Estructura del proyecto
 
 El proyecto se organiza de la siguiente manera:
 
@@ -54,7 +56,7 @@ app_sugarcane.py → Aplicación principal en Streamlit.
 
 utils/ → Funciones auxiliares (preprocesamiento y predicción).
 
-5. Uso del sistema en Google Colab
+☁️ 5. Uso del sistema en Google Colab
 5.1 Abrir el proyecto
 
 Ingrese a Google Colab.
@@ -73,7 +75,7 @@ Ejecute las celdas de evaluación.
 
 Revise métricas como precisión, matriz de confusión y reporte de clasificación.
 
-6. Uso de la aplicación Streamlit
+🖥️ 6. Uso de la aplicación Streamlit
 6.1 Ejecutar la aplicación
 
 Desde la terminal o Colab, ejecute:
@@ -101,7 +103,7 @@ La enfermedad detectada.
 
 El nivel de confianza del modelo.
 
-7. Interpretación de resultados
+📊 7. Interpretación de resultados
 
 Clase predicha: Enfermedad identificada en la hoja.
 
@@ -109,7 +111,7 @@ Probabilidad: Nivel de seguridad del modelo en la predicción.
 
 Resultados con baja confianza deben ser verificados manualmente.
 
-8. Buenas prácticas de uso
+✅ 8. Buenas prácticas de uso
 
 Utilizar imágenes claras y bien iluminadas.
 
@@ -117,7 +119,7 @@ Evitar fondos complejos.
 
 Usar hojas completas y sin recortes excesivos.
 
-9. Limitaciones del sistema
+⚠️ 9. Limitaciones del sistema
 
 El diagnóstico depende de la calidad del dataset de entrenamiento.
 
@@ -125,10 +127,14 @@ No reemplaza la evaluación de un especialista agrícola.
 
 Puede fallar ante enfermedades no incluidas en el entrenamiento.
 
-10. Soporte y mantenimiento
+🔄 10. Soporte y mantenimiento
 
 Reentrenar el modelo al añadir nuevas clases.
 
 Actualizar librerías periódicamente.
 
 Validar el rendimiento con nuevos datos.
+
+👨‍💻 11. Créditos
+
+Proyecto desarrollado con fines académicos para el diagnóstico de enfermedades en hojas de caña de azúcar mediante técnicas de Deep Learning.
