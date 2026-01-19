@@ -1,4 +1,5 @@
 🌱 Sistema de Diagnóstico de Enfermedades en Hojas de Caña de Azúcar
+
 🧩 1. Introducción
 
 Este proyecto corresponde a un Sistema de Diagnóstico Automático de Enfermedades en Hojas de Caña de Azúcar, desarrollado mediante técnicas de Deep Learning y análisis de imágenes RGB. El sistema emplea Redes Neuronales Convolucionales (CNN) entrenadas previamente para reconocer patrones visuales característicos de distintas enfermedades presentes en las hojas.
